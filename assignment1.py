@@ -7,6 +7,8 @@ def subtraction(a,b):
 def multiplication(c, d):
 	return c*d
 
+def division(c, d):
+	return float(c)/float(d)
 
 if __name__ == "__main__":
 	a = 3
@@ -14,6 +16,7 @@ if __name__ == "__main__":
 	print(addition(a,b))
 	print(subtraction(a,b))
 	print(multiplication(a, b))
+	print(division(a, b))
 
 '''
 clone from github
