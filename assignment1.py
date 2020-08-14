@@ -10,6 +10,7 @@ def multiplication(c, d):
 def division(c, d):
 	return float(c)/float(d)
 
+
 if __name__ == "__main__":
 	a = 3
 	b = 5
